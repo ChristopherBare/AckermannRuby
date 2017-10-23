@@ -1,7 +1,7 @@
 class Ackermann
   def self.ackermann(m, n)
     if m.to_i == 0
-      2.to_i * n.to_i
+      2 * n.to_i
     elsif m.to_i >= 1 && n.to_i == 0
       0
     elsif m.to_i >= 1 && n.to_i == 1
